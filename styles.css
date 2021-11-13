@@ -1,0 +1,14 @@
+nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  height: 5vh;
+  width: 100%;
+  padding: 10px;
+  background-color:  #202020;
+}
+
+nav input[type="text"] {
+  width: 
+}
