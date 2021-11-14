@@ -12,66 +12,99 @@
   <title>Youtube</title>
 </head>
 <body>
-  <header>
-    <nav>
-      <div class="cluster1">
-        <button class="hamburger">
-          <span></span><span></span><span></span>
-        </button>
-        <div class="imgContainer">
-          <img src="img/YouTube-White-Full-Color-Logo.wine.svg" alt="">
-        </div>
-      </div>
-      <div class="cluster2"> 
-        <div class="searchCluster">
-          <input class="searchInput" type="text" name="" id="">
-          <button class="deleteButton" >
-            <img src="img/delete.svg" alt="">
+  <div class="content">
+    <header>
+      <nav>
+        <div class="cluster1">
+          <button class="hamburger">
+            <span></span><span></span><span></span>
           </button>
-          
+          <div class="imgContainer">
+            <img src="img/YouTube-White-Full-Color-Logo.wine.svg" alt="">
+          </div>
         </div>
-        <button class="searchButton">
-          <img src="img/search.svg" alt="">
-        </button>
-        <button class="microphoneButton">
-          <img src="img/microphone.png" alt="">
-        </button>
-      </div>
-      <div class="cluster3">
-        <button>
-          <img src="img/create.svg" alt="">
-        </button>
-        <button>
-          <img src="img/apps.svg" alt="">
-        </button>
-        <button>
-          <img src="img/bell.png" alt="">
-        </button>
-        <div class="signIn">
+        <div class="cluster2"> 
+          <div class="searchCluster">
+            <input class="searchInput" type="text" name="" id="">
+            <button class="deleteButton" >
+              <img src="img/delete.svg" alt="">
+            </button>
+            
+          </div>
+          <button class="searchButton">
+            <img src="img/search.svg" alt="">
+          </button>
+          <button class="microphoneButton">
+            <img src="img/microphone.png" alt="">
+          </button>
+        </div>
+        <div class="cluster3">
           <button>
-            <img src="img/account-circle.svg" alt="">
+            <img src="img/create.svg" alt="">
           </button>
-          <p>SIGN IN</p>
+          <button>
+            <img src="img/apps.svg" alt="">
+          </button>
+          <button>
+            <img src="img/bell.png" alt="">
+          </button>
+          <div class="signIn">
+            <button>
+              <img src="img/account-circle.svg" alt="">
+            </button>
+            <p>SIGN IN</p>
+          </div>
+
         </div>
+      </nav>
+    </header>
+      <section class="main">
+        <div class="videoContainer">
+          <iframe
+          id="video"
+          src="https://www.youtube.com/embed/zTTtd6bnhFs"
+          title="YouTube video player" 
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+          allowfullscreen>
+          </iframe>
+        </div>
+        <div class="infoContainer">
+          <div class="videoHeader">
+            <div class="header1">
+              <h4>FINAL FANTASY XIV: ENDWALKER Full Trailer</h4>
+              <span>
+                <p>3,455,199 views • </p>
+                <p>15 May 2021</p>
+              </span> 
+            </div>
+            <div class="header2">
+              <div class="likeDislike">
+                <div>
+                  <button>
+                    <img src="img/thumb-up.svg" alt="">
+                  </button>
+                  <p>99m</p>
+                </div>
+                <div>
+                  <button>
+                    <img src="img/thumb-down.svg" alt="">
+                  </button>
+                  <p>0</p>
+                </div>
+              </div>
+              <span>
 
-      </div>
-    </nav>
-  </header>
-  <section class="content">
-    <div class="video">
-      <iframe 
-      width="560" 
-      height="315" 
-      src="https://www.youtube.com/embed/zTTtd6bnhFs"
-      title="YouTube video player" 
-      frameborder="0" 
-      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
-      allowfullscreen>
-      </iframe>
-    </div>
-    <div></div>
-    <div></div>
+              </span>
+            </div>
+          </div>
+          <div class="videoDescription">
 
-  </section>
+          </div>
+        </div>
+        <div>
+
+        </div>
+      </section>
+  </div>
 </body>
 </html>
