@@ -156,7 +156,7 @@ button {
   display: flex;
   flex-direction: column;
   background-color: #181818;
-  height: 100vh;
+  height: 100%;
   width: 100%;
 }
 .main {
@@ -202,6 +202,7 @@ button {
   color: #aaa;
 }
 .header1 {
+  width: 50%;
   padding-bottom: 25px;
 }
 .header2 {
@@ -209,11 +210,75 @@ button {
   flex-direction: row;
   justify-content: flex-start;
   align-items: flex-end;
+  width: 50%;
 }
 .likeDislike {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-evenly;
   width: 150px;
   padding: 10px 0;
   border-bottom: 2px solid white;
+}
+.likeDislike span {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 50%;
+  color: white;
+}
+.header2Buttons {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 400px;
+  padding: 10px 0 10px 15px;
+}
+.header2Buttons span {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 50%;
+  color: white;
+}
+.header2Buttons span button {
+  margin-right: 5px;
+}
+.videoDescription {
+  display: flex;
+  flex-direction: row;
+  padding-top: 20px;
+  height: 300px;
+  width: 100%;
+  background-color: blue;
+}
+.videoDescription h6 {
+  font-weight: bold;
+  font-size: 15px;
+  margin-bottom: 5px;
+}
+.videoDescription p {
+  font-size: 12px;
+  color: #9CA0A0;
+}
+.videoDescription span:nth-child(1) {
+  margin-right: 15px;
+}
+.channelIcon {
+  border-radius: 50%;
+}
+.channelIcon img {
+  border-radius: 50%;
+}
+.cards {
+  display: flex;
+  flex-direction: row;
+
+}
+.cards span {
+  background-color: #0F0F0F;
+  height: 80px;
+  width: 30%;
+}
+.cards span:nth-child(1) {
+  margin-right: 15px;
 }
