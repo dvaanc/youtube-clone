@@ -6,6 +6,9 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="reset.css">
   <link rel="stylesheet" href="styles.css">
+  <link rel="icon" type="image/png" href="img/favicon-32x32.png" sizes="32x32" />
+  <link rel="icon" type="image/png" href="img/favicon-16x16.png" sizes="16x16" />
+
   <title>Youtube</title>
 </head>
 <body>
@@ -19,29 +22,53 @@
           <img src="img/YouTube-White-Full-Color-Logo.wine.svg" alt="">
         </div>
       </div>
-
       <div class="cluster2"> 
         <div class="searchCluster">
-          <input class="search" type="text" name="" id="">
-          <img class="deleteIcon" src="img/delete.svg" alt="">
+          <input class="searchInput" type="text" name="" id="">
+          <button class="deleteButton" >
+            <img src="img/delete.svg" alt="">
+          </button>
+          
         </div>
         <button class="searchButton">
           <img src="img/search.svg" alt="">
         </button>
-        <div>
-          <img src="" alt="">
-        </div>
+        <button class="microphoneButton">
+          <img src="img/microphone.png" alt="">
+        </button>
       </div>
-      <div cluster="cluster3">
-        <img src="" alt="">
-        <img src="" alt="">
-        <img src="" alt="">
-        <img src="" alt="">
+      <div class="cluster3">
+        <button>
+          <img src="img/create.svg" alt="">
+        </button>
+        <button>
+          <img src="img/apps.svg" alt="">
+        </button>
+        <button>
+          <img src="img/bell.png" alt="">
+        </button>
+        <div class="signIn">
+          <button>
+            <img src="img/account-circle.svg" alt="">
+          </button>
+          <p>SIGN IN</p>
+        </div>
+
       </div>
     </nav>
   </header>
-  <section>
-    <div></div>
+  <section class="content">
+    <div class="video">
+      <iframe 
+      width="560" 
+      height="315" 
+      src="https://www.youtube.com/embed/zTTtd6bnhFs"
+      title="YouTube video player" 
+      frameborder="0" 
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+      allowfullscreen>
+      </iframe>
+    </div>
     <div></div>
     <div></div>
 
