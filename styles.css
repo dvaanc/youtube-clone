@@ -166,7 +166,7 @@ button {
   height: 100%;
   padding: 25px;
 }
-.main button {
+.mainButton {
   background-color: #181818;
 }
 .videoContainer {
@@ -247,16 +247,19 @@ button {
   display: flex;
   flex-direction: row;
   padding-top: 20px;
-  height: 300px;
+  height: 240px;
   width: 100%;
-  background-color: blue;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
 }
 .videoDescription h6 {
   font-weight: bold;
   font-size: 15px;
   margin-bottom: 5px;
 }
-.videoDescription p {
+.videoTitle {
+
+}
+.videoTitle p {
   font-size: 12px;
   color: #9CA0A0;
 }
@@ -269,16 +272,99 @@ button {
 .channelIcon img {
   border-radius: 50%;
 }
-.cards {
+.descriptionContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 100%;
+}
+.containerTop {
   display: flex;
   flex-direction: row;
-
+  justify-content: space-between;
+  margin-bottom: 10px;
+  width: 100%;
+  padding-right: 15px;
 }
-.cards span {
+.videoTitleButtons {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+.joinButton {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #3EA6FF;
+  height: 35px;
+  width: 75px;
+  color: #3EA6FF;
+  letter-spacing: 1px;
+  font-size: 15px
+}
+.subscribeButton {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #CC0000;
+  border-radius: 3px;
+  letter-spacing: 1px;
+  width: 100px;
+  height: 35px;
+  color: white;
+  font-weight: bold;
+  font-size: 13px;
+}
+.containerBottom {
+  width: 100%;
+  font-size: 14px;
+  color: white;
+}
+.cardsContainer {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  gap: 10px;
+  margin-top: 20px;
+}
+.card {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
   background-color: #0F0F0F;
-  height: 80px;
-  width: 30%;
+  height: 110px;
+  width: 40%;
+  cursor: pointer;
 }
-.cards span:nth-child(1) {
+.card:nth-child(1) img {
+  margin-right: 20px;
+}
+.card:nth-child(2) {
+  padding-left: 20px;
+}
+.gamingIcon {
+  height: 60px;
+  width: auto;
+  border-radius: 50%;
+  margin-right: 15px;
+}
+.card:nth-child(2) p {
+  margin-bottom: 8px;
+}
+.card h4 {
+  color: #aaa;
+  font-weight: bold;
+}
+.card div span {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.chevron {
+  height: 20px;
+  width: auto;
+  border-radius: 50%;
   margin-right: 15px;
 }
